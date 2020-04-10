@@ -34,3 +34,6 @@
 # Plus
 *.opendb
 *.opensdf
+
+#add user Setting
+*.ipch
