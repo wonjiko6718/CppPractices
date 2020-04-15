@@ -53,7 +53,7 @@ BOOL CMFCPracticeView::PreCreateWindow(CREATESTRUCT& cs)
 
 // CMFCPracticeView 그리기
 
-void CMFCPracticeView::OnDraw(CDC* /*pDC*/)
+void CMFCPracticeView::OnDraw(CDC*pDC)
 {
 	CMFCPracticeDoc* pDoc = GetDocument();
 	ASSERT_VALID(pDoc);
@@ -62,7 +62,7 @@ void CMFCPracticeView::OnDraw(CDC* /*pDC*/)
 
 	// TODO: 여기에 원시 데이터에 대한 그리기 코드를 추가합니다.
 
-	// pDC->TextOutW(10, 10, (CString)"Hello! MFC App World!!!"); <= 출처 복붙
+	pDC->TextOutW(10, 10, (CString)"Hello! MFC App World!!!");
 }
 
 
