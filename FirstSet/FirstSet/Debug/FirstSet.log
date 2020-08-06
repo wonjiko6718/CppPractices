@@ -1,3 +1,4 @@
-﻿  HelloWorld.cpp
-C:\Users\wonji\Desktop\cppPractice\CppPractices\FirstSet\FirstSet\HelloWorld.cpp(15,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  FirstSet.vcxproj -> C:\Users\wonji\Desktop\cppPractice\CppPractices\FirstSet\Debug\FirstSet.exe
+﻿  PractAPI.cpp
+PractAPI.obj : error LNK2019: "long __stdcall WinProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WinProc@@YGJPAUHWND__@@IIJ@Z) 외부 기호(참조 위치: _WinMain@16 함수)에서 확인하지 못했습니다.
+MSVCRTD.lib(exe_main.obj) : error LNK2019: _main 외부 기호(참조 위치: "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수)에서 확인하지 못했습니다.
+C:\Users\wonji\Desktop\cppPractice\CppPractices\FirstSet\Debug\FirstSet.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
