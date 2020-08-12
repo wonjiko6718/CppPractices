@@ -11,6 +11,7 @@ Numuse::Numuse(int innum) // class Constructor override
 	SampleNum += *fingerNum + 1; // plus PointerNum
 	SaveNum = *fingerNum;
 }
+/*
 int main()
 {
 	cout << "Welcome to Practice \n" << endl;
@@ -21,3 +22,4 @@ int main()
 
 	return 0;
 }
+*/

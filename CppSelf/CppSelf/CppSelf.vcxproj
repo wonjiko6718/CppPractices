@@ -138,9 +138,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayBubble.cpp" />
     <ClCompile Include="Hello.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayBubble.h" />
     <ClInclude Include="Hello.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

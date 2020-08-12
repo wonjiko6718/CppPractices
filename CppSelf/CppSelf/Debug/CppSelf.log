@@ -1,2 +1,3 @@
-﻿  Hello.cpp
+﻿  ArrayBubble.cpp
+C:\Users\wonji\Desktop\cppPractice\CppPractices\CppSelf\CppSelf\ArrayBubble.cpp(12,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   CppSelf.vcxproj -> C:\Users\wonji\Desktop\cppPractice\CppPractices\CppSelf\Debug\CppSelf.exe

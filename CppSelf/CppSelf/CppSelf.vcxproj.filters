@@ -18,9 +18,15 @@
     <ClCompile Include="Hello.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayBubble.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hello.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBubble.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
