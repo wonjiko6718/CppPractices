@@ -1,6 +1,8 @@
 #include <iostream>
+#include <fstream>
+#include <string>
 #include "ArrayBubble.h"
-
+using namespace std;
 VecArr::VecArr() // constructor
 {
 	VecArr_Num.push_back(20);
@@ -12,7 +14,6 @@ void VecArr::Vecprint() // Array Print
 		cout << VecArr_Num[i] << "  ";
 	}
 	cout << endl;
-
 }
 void VecArr::VecSort() // BubbleSort
 {
@@ -35,5 +36,17 @@ int main() // main method
 	VA_1.Vecprint();
 	VA_1.VecSort();
 	VA_1.Vecprint();
-	
+
+	ifstream readFile; // input File
+	readFile.open("InFile\\TestFile3.txt"); // need \\ to use directory
+	if (readFile.is_open())
+	{
+		while (!readFile.eof())
+		{
+			string str;
+			getline(readFile, str);
+			cout << str << endl;
+		}
+	}
+	readFile.close();
 }

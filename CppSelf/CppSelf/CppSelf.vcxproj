@@ -145,6 +145,9 @@
     <ClInclude Include="ArrayBubble.h" />
     <ClInclude Include="Hello.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestFile.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
