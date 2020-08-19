@@ -38,7 +38,7 @@ int main() // main method
 	VA_1.Vecprint();
 
 	ifstream readFile; // input File
-	readFile.open("InFile\\TestFile3.txt"); // need \\ to use directory
+	readFile.open("InFile\\TestFile3.txt"); // need "\\" to use directory
 	if (readFile.is_open())
 	{
 		while (!readFile.eof())
